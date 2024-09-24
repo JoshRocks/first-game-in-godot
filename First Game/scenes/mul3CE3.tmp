@@ -17,9 +17,6 @@ properties/2/replication_mode = 1
 properties/3/path = NodePath(".:_is_on_floor")
 properties/3/spawn = true
 properties/3/replication_mode = 1
-properties/4/path = NodePath(".:direction")
-properties/4/spawn = true
-properties/4/replication_mode = 1
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_eq0sc"]
 atlas = ExtResource("2_jru4c")
@@ -195,7 +192,6 @@ properties/0/spawn = true
 properties/0/replication_mode = 1
 
 [node name="MultiplayerPlayer" type="CharacterBody2D"]
-collision_layer = 2
 script = ExtResource("1_6x1rd")
 
 [node name="PlayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
